@@ -22,10 +22,10 @@ public class Translator {
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
         headers.add("Authorization","Bearer "
-                + "t1.9euelZqXlpDGmpiMz5bIi42LipeVxu3rnpWamZyWk4nNlY-WzomZz4mNyYnl9PcEEHJk-e9_RCjW3fT3RD5vZPnvf0Qo1g.ZvJm86OrXzKfSbekZ3LQVzynQ-8ibuBCwV8wvVLRMFLanQxMOjzTB28lZAqzkpluM9-FU4HaL5AhZTTVkDr5CA");
+                + "IamToken");
 
         Map<String, String> jsonData = new HashMap<>();
-        jsonData.put("folderId", "b1ges9aief5m3qdhnmmq");
+        jsonData.put("folderId", "___");
         jsonData.put("targetLanguageCode","en");
         jsonData.put("texts","[" + sentenceToTranslate + "]");
 
